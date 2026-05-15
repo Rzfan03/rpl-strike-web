@@ -7,7 +7,7 @@ type HeroSectionProps = {
   maxPlayers: number;
 }
 
-export default function HeroSection({ serverName, playersOnline, maxPlayers }: HeroSectionProps) {
+export default function HeroSection({ playersOnline, maxPlayers }: HeroSectionProps) {
   const [copied, setCopied] = useState(false);
   const serverIP = "147.185.221.224:62129";
 

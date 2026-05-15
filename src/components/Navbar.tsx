@@ -1,10 +1,6 @@
 import { useState } from "react";
 
-type NavbarProps = {
-  status: string;
-}
-
-export default function Navbar({ status }: NavbarProps) {
+export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
